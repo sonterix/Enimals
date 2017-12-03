@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,600');
+
+body{
+    font-family: 'Oswald', sans-serif;
+}
+
+.section1{
+    background-color: #c1b6aa;
+}
+.section2{
+    background-color: #8c9ea0;
+}
+.section3{
+    background-color: #a58e69;
+}
+
+.text{
+    margin: 0 50px;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.text h1{
+    margin: 20px 0;
+    font-size: 4vw;
+    text-align: center;
+    text-transform: uppercase;
+}
+.text p{
+    font-size: 2vw;
+    text-align: justify;
+    text-transform: lowercase;
+    letter-spacing: 2px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+#horse,#goat,#elephant{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#horse{
+    background-image: url('../img/horse.png');
+    background-position: left bottom;
+}
+#goat{
+    background-image: url('../img/goat.png');
+    background-position: right bottom;
+}
+#elephant{
+    background-image: url('../img/elephant.png');
+    background-position: left bottom;
+}
+
+@media (max-width: 900px){
+    .ms-right {
+        opacity: 0;
+    }
+    .ms-left {
+        width: 100% !important;
+    }
+}
