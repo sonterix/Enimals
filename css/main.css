@@ -3,6 +3,10 @@
 body{
     font-family: 'Oswald', sans-serif;
 }
+*::selection{
+    color: #ff5343;
+    background-color: transparent;
+}
 
 .section1{
     background-color: #c1b6aa;
