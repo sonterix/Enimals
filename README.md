@@ -1,2 +1,2 @@
 # Enimals
-enimals.kl.com.ua
+http://enimals.kl.com.ua/
